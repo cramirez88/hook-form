@@ -1,7 +1,11 @@
-
+import Form from './components/Form'
 
 function App() {
-  return <h1>Hello, form!</h1>;
+  return (
+    <div>
+      <Form/>
+    </div>
+  )
 }
 
 export default App;
